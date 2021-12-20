@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.cleafix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header .container {
+    color: white;
+}
+
+header .container h1{
+    margin-bottom: 45px;
+}
+
+header .container p{
+    margin: 0 auto 20px auto;
+    width: 80%;
+}
+
+header {
+    text-align: center;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header .container {
+    padding: 20px 0;
+}
+
+.container .row div[class^="col"] {
+    float: left;
+}
+
+header .row:nth-child(2) {
+    padding: 100px 0;
+}
+
+#logo{
+    height: 50px;
+}
+
+header .menu li {
+    display: inline-block;
+}
+
+header .menu a {
+    color: white;
+    margin: 0px 7px;
+    line-height: 50px;
+}
+
+header .container a{
+    display: inline-block;
+    z-index: 100;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+header .menu a:hover {
+    color: rgb(199, 163, 206);
+}
+
+header .header_button {
+    height: 50px;
+    padding: 6px 0;
+}
+
+.header_button a {
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    z-index: 10;
+}
+
+
+.button_w {
+    background-color: white;
+    color: black;
+}
+
+.button_w:hover {
+    color: rgb(199, 163, 206);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button_b {
+    background-color: black;
+    color: white;
+}
+
+.button_b:hover {
+    background-color: rgb(199, 163, 206);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+}
