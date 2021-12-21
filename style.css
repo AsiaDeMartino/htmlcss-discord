@@ -9,10 +9,14 @@ html{
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
-.cleafix::after {
+.container .row div[class^="col"] {
+    float: left;
+}
+
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
@@ -25,7 +29,7 @@ a {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 960px;
 }
 
 header .container {
@@ -49,33 +53,36 @@ header {
     background-position: center;
 }
 
-.container .row div[class^="col"] {
-    float: left;
-}
-
-.row .col-2 {
+.col-2:not(header) {
     width: 16.66%;
 }
 
-.row .col-8 {
+.col-8:not(header) {
     width: 66.66%;
 }
 
-.row .col-4 {
+.col-4:not(header) {
     width: 33.33%;
-}
+} 
 
 .row .col-12 {
     width: 100%;
     text-align: center;
+    float: right;
 }
 
 header .row:nth-child(2) {
     padding: 100px 0;
 }
 
-#logo{
+.logo{
     height: 50px;
+    float: left;
+}
+
+.menu{
+    white-space: nowrap;
+    float: left;
 }
 
 header .menu li {
@@ -85,7 +92,7 @@ header .menu li {
 header .menu a {
     color: white;
     margin: 0px 7px;
-    line-height: 50px;
+    line-height: 34px;
 }
 
 header .container a{
@@ -151,10 +158,6 @@ main section{
     padding-bottom: 50px;
 }
 
-main .row .col-8 img {
-    padding: 0 0 0 15%;
-}
-
 main .row .col-4 h2 {
     margin-bottom: 50px;
 }
@@ -217,7 +220,6 @@ footer .row .col-4 .footer_txt h5 {
     font-size: 30px;
     color: #5865F2;
     font-weight: bold;
-    text-transform: uppercase;
     margin-bottom: 20px;
 }
 
@@ -276,4 +278,29 @@ footer .row .col-2 .footer_button a {
 
 .registrati{
     position: relative;
+}
+
+.section{
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    color: lightgrey;
+}
+
+.wave_top{
+    bottom:100%;
+}
+
+.wave_bottom{
+    top: 100%;
+    transform: rotate(180deg);
+}
+
+#bandiera{
+    width: 20px;
 }
