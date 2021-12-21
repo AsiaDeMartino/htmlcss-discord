@@ -150,29 +150,19 @@ main section{
 }
 
 main .row .col-8 img {
-    padding-right: 15%;
-}
-
-main section:nth-child(2) .col-8 img {
     padding: 0 0 0 15%;
 }
 
 main .row .col-4 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 main section:last-child .row:first-child {
     margin-bottom: 50px;
 }
 
-
 main section:nth-child(even) {
-    background-color: grey;
-}
-
-main section:last-child h2 {
-    width: 90%;
-    margin: 0 auto 20px auto;
+    background-color: lightgrey;
 }
 
 main section:last-child h2 {
