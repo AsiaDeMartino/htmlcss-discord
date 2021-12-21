@@ -147,6 +147,7 @@ header .header_button {
 
 main section{
     margin-top: 80px;
+    padding-top: 30px;
 }
 
 main .row .col-8 img {
@@ -183,5 +184,24 @@ main section:last-child h3 {
     padding-top: 30px;
     margin: 0 auto 50px auto;
 }
+
+.button_a {
+    background-color: #5865F2;
+    color: white;
+}
+
+.button_a:hover {	
+	background-color: #737ef3;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+	}
+
+    main section:last-child a {
+    display: inline-block;
+    z-index: 10;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
 
 
