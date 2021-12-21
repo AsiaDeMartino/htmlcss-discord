@@ -148,6 +148,7 @@ header .header_button {
 main section{
     margin-top: 80px;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 main .row .col-8 img {
@@ -180,7 +181,7 @@ main section:last-child h3 {
     font-size: 30px;
     background-image: url("img/stars.svg");
     background-size: contain;
-    width: 60%;
+    width: 50%;
     padding-top: 30px;
     margin: 0 auto 50px auto;
 }
@@ -191,17 +192,88 @@ main section:last-child h3 {
 }
 
 .button_a:hover {	
-	background-color: #737ef3;
+	background-color: #5865F2;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
-	}
-
-    main section:last-child a {
-    display: inline-block;
-    z-index: 10;
-    font-size: 18px;
-    padding: 15px 20px;
-    border-radius: 30px;
 }
 
+main section:last-child a {
+display: inline-block;
+z-index: 10;
+font-size: 18px;
+padding: 15px 20px;
+border-radius: 30px;
+}
 
+footer .container {	
+	padding: 50px 0;
+}
 
+footer {
+    background-color: #303234;
+    color: white;
+}
+
+footer .row .col-4 .footer_txt h5 {
+    font-size: 30px;
+    color: #5865F2;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer .row .col-4 .footer_txt select {
+    margin-bottom: 20px;
+    background: none;
+    border: 0;
+    color: white;
+}
+
+footer .row .col-2 .footer_link ul {
+    list-style-type: none;
+}
+
+footer .row .col-2 .footer_link li {
+    margin-bottom: 10px;
+}
+
+footer .row .col-2 .footer_link a:hover {
+    color: rgb(199, 163, 206);
+}
+
+footer .row .col-2 .footer_link h5 {
+    color: #5865F2;
+    margin-bottom: 10px;
+}
+
+footer .row .col-4 .footer_icon i {
+    padding: 5px;
+}
+
+footer .row:first-child {
+    border-bottom: 2px solid #5865F2;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+footer .row .col-2 .footer_button a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    z-index: 10;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+}
+
+.row{
+    width: 100%;
+}
+
+#ita{
+    width: 40px;
+    z-index: 1000000;
+}
+
+.registrati{
+    position: relative;
+}
